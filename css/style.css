@@ -1,0 +1,190 @@
+body{margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+min-width: 1200px;}
+
+.main-nav {background-color: #2c2c2c;
+height: 70px;}
+.main-nav-container {width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+overflow: hidden;}
+.logo {font-size: 22px;
+float: left;
+margin-top: 20px;
+text-decoration: none;
+color: #fff;}
+.menu-link {
+list-style:none;
+display: inline-block;
+margin-right: 30px;
+float: right;
+margin-top: 7px;}
+.menu-link a {
+text-decoration: none;
+font-size: 18px;
+color: #fff;
+}
+
+/*большой блок*/
+.title-block {background-image: url(../img/promo.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.title-block-container {width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+height: 645px;
+padding-top: 195px;
+}
+.main-title {font-size: 66px;
+color: #fff;
+text-align: center;
+margin: 0 auto;
+width: 700px;
+margin-bottom: 195px;}
+.title-btn {padding: 12px;
+border: 2px solid white;
+text-decoration: none;
+color: #fff;
+margin: 0 auto;
+margin-bottom: 35px;
+}
+.title-arrow {
+margin: 0 auto;
+}
+
+/*преимущества*/
+.advatages-container{width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+height: 190px;}
+.advantages-column{margin: 0 auto;
+margin-top: 50px;}
+.advantage-item {width: 250px;
+padding-top: 10px;
+display: inline-block; 
+overflow: hidden;
+vertical-align: middle;
+margin-right: 20px;
+
+}
+.advantage-item p{font-size: 18px;
+color: #444444;
+margin-left: 100px;
+display: inline-block;
+}
+.hand{background-image: url(../img/hand.jpg);
+background-repeat: no-repeat;
+background-size: 56px 58px;
+background-position: 5% 50%;
+display: inline-block;
+}
+.glasses{background-image: url(../img/class.jpg);
+background-size: 75px  28px;
+background-repeat: no-repeat;
+background-position: 5% 50%;
+display: inline-block;
+}
+.camera{background-image: url(../img/camera.jpg);
+background-repeat: no-repeat;
+background-size: 65px 50px ;
+background-position: 5% 50%;
+display: inline-block;}
+.binoculars{background-image: url(../img/bnq.jpg);
+background-repeat: no-repeat;
+background-size:72px  34px  ;
+background-position: 5% 50%;
+display: inline-block;}
+
+/*видео*/
+.video-container{width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+height: 360px;}
+.blue-title{font-size: 36px;
+	color: #444444;
+}
+.blue-title:after{
+	content:'';
+	width: 60px;
+height: 6px;
+background-color: #3e98d7;
+margin-top: 20px;
+display: block;}
+.video-text{font-size: 18px;
+	color: #444444;
+width: 360px;
+}
+.video-pull-right{}
+
+/*галерея*/
+.gallery-container{width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;}
+.gallery.blue-title {margin: 0 auto;}
+.gallery-arrow-right{}
+.allery-arrow-left{}
+
+/*полеты*/
+.flights-path{	background-image: url(../img/flights.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-repeat: no-repeat;
+height: 700px;
+}
+
+.flights-container {width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.flights-path-container{
+	width: 1170px;
+	font-size: 0px;
+list-style: outside none none;
+position: relative;
+}
+.flights.blue-title{margin: 0 auto;}
+.flight-text{
+display: block;
+font-size: 18px;
+line-height: 26px;
+color: #454545;
+text-align: center;}
+.flight-img{width: 44px;
+height: 65px;}
+
+.flights-item1{
+	position: absolute;
+bottom: 96px;
+left: -5px;}
+.flights-item2{position: absolute;
+bottom: 141px;
+left: 315px;}
+.flights-item3{position: absolute;
+bottom: 273px;
+left: 580px;}
+.flights-item4{position: absolute;
+bottom: 141px;
+right: 308px;}
+.flights-item5{position: absolute;
+bottom: 96px;
+right: 52px;}
+.flight-path{ position: absolute;
+bottom: 67%;}
+
+.before-flight{height: 90px;
+background-color: #f2f2f2;
+color: #26668e;
+font-size: 32px;
+margin-top: -30px;
+padding-top: 15px;
+}
