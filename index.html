@@ -58,7 +58,9 @@
 		<h2 class="blue-title">Вкратце</h2>
 		<p class="video-text">Более 5 лет воздухоплавательная команда Нева-Аэро выполняет полёты на воздушных шарах для гостей и жителей Петербурга над одними из самых живописных мест России – Царским Селом и Павловском, возведенных в Пушкинском районе Санкт-Петербурга. </p>
 	<p class="video-text"> Мы предлагаем полетать с нами!</p></div>
-		<div class="video-pull-right col-7"><img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=750%C3%97340&w=750&h=340" alt=""></div>
+		<div class="video-pull-right col-7">
+			<iframe width="750" height="340" src="https://www.youtube.com/embed/fDtgX4UqnsI" frameborder="0" allowfullscreen></iframe>
+			<!--<img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=750%C3%97340&w=750&h=340" alt="">--></div>
 	</div>
 </section>
 
@@ -66,14 +68,14 @@
 <section class="gallery">
 	<div class="gallery-container">
 		<h2 class="blue-title">Галерея</h2>
-		<div class="gallery_placeholder">
-			<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="">
-			<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="">
-			<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="">
-			<img src="https://placeholdit.imgix.net/~text?txtsize=23&txt=250%C3%97250&w=250&h=250" alt="">
+		<div style="text-align: center;" id="slider">
+		<div><img src="img/gallery1.jpg" alt=""></div>
+<div><img src="img/gallery2.jpg" alt=""></div>
+<div><img src="img/gallery3.jpg" alt=""></div>
+<div><img src="img/gallery4.jpg" alt=""></div>
 		</div>
-		<div class="gallery-arrow-right"></div>
-		<div class="gallery-arrow-left"></div>
+		<!--<div class="gallery-arrow-right"></div>
+		<div class="gallery-arrow-left"></div>-->
 	</div>
 </section>
 
@@ -223,21 +225,22 @@
 <!--цифры-->
 <section class="numbers">
 	<div class="numbers-container">
-		<div class="number-item col-3">
-			<p class="number-item-number ">700</p>
-			<p class="number-text">полетов год</p>
+			<div class="number-item col-3">
+			<div class="number-item-number">700</div>
+			<p class="number-text">Полетов</br> в год</p>
 		</div>
-		<div class="number-item col-3">
+				<div class="number-item col-3">
 			<div class="number-item-number">3000</div>
-			<p class="number-text">средняя дальность полета в метрах</p>
+			<p class="number-text">Средняя</br> дальность полета в метрах</p>
 		</div>
+
 		<div class="number-item col-3">
 			<div class="number-item-number">3</div>
-			<p class="number-text">воздушных шара</p>
+			<p class="number-text">Воздушных</br> шара</p>
 		</div>
 		<div class="number-item col-3">
 			<div class="number-item-number">12</div>
-			<p class="number-text">человек в команде</p>
+			<p class="number-text">Человек</br> в команде</p>
 		</div>
 	</div>
 </section>
@@ -322,7 +325,9 @@
 <footer>
 		<div class="main-nav">
 		<div class="main-nav-container">
-			<a href="" class="logo">Монгольфьеркин и КО</a>
+			<div class="logo-wrapper col-3">
+			<a href="" class="logo">Монгольфьеркин и КО</a></div>
+			<div class="links-wrapper col-8">
 			<ul>
 				<li class="menu-link"><a href="" >Кто мы</a></li>
 				<li class="menu-link"><a href="" >Фотографии</a></li>
@@ -331,8 +336,26 @@
 				<li class="menu-link"><a href="" >Команда</a></li>
 				<li class="menu-link"><a href="" >Контакты</a></li>
 			</ul>
+			</div>
 		</div>
 	</div>
 </footer>
+<link rel="stylesheet" href="http://www.owlcarousel.owlgraphic.com/assets/owlcarousel/assets/owl.carousel.min.css" />
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://www.owlcarousel.owlgraphic.com/assets/owlcarousel/owl.carousel.js"></script>
+<script>
+      $(document).ready(function(){
+      $('#slider').owlCarousel({
+      items:4,
+      loop:true,
+      mouseDrag: true,
+      touchDrag: true,
+      nav: true,
+      margin: 20,
+      navText: [" " , " "],
+      });
+      });
+</script>
+
 </body>
 </html>
